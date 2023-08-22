@@ -1,0 +1,59 @@
+body{
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 5px;
+  margin-right: 10px;
+  padding: 3px 8px;
+  background-color: #f9f7f7;
+  color: rgb(9, 8, 8);
+  border: 1px solid;
+  border-radius: 5px;
+
+}
+
+.task-input button {
+  padding: 3px 8px;
+  background-color: #4a07db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 5px 0;
+}
+
+.task-list li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.task-list li button {
+  margin-left: 10px;
+  padding: 3px 8px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
