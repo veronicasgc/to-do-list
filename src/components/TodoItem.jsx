@@ -11,7 +11,7 @@ import { Paper } from '@mui/material';
 
 
 export default function TodoItem({todo, deleteTodo, editTodo}) {
-  const {openEdit, setOpenEdit}= React.useState(false)
+  const [openEdit, setOpenEdit]= React.useState(false)
 
   const handleCloseEdit = () => {
     setOpenEdit(!openEdit)

@@ -20,7 +20,7 @@ export default function Home() {
 
     
     for(let i in todosArray){
-      if(todosArray[i].id){
+      if(todosArray[i].id === id){
           todosArray[i].text = editText;
       }
     }
